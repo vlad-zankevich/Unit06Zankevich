@@ -6,7 +6,7 @@ public class Time {
     private int minute;
     private int sec;
 
-    private int [] currentTime;
+    private final int [] currentTime;
 
     public Time() {
         hour = 0;

@@ -3,8 +3,8 @@ package com.epam.unit06.task01;
 
 public class Counter {
 
-    private int min;
-    private int max;
+    private final int min;
+    private final int max;
 
     private int current;
 

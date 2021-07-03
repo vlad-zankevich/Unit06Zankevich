@@ -14,6 +14,7 @@ public class Book {
         genre = "Any Genre";
         year = 1900;
         pageQuantity = 100;
+
     }
 
     public Book (String name, String author, String genre, int year, int pageQuantity) {
@@ -76,6 +77,6 @@ public class Book {
     }
 
     public void addBookToLibrary() {
-        
+
     }
 }
